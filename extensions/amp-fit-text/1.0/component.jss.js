@@ -22,7 +22,7 @@ const fitTextContentWrapper = {
   'display': 'flex',
   'flexDirection': 'column',
   'flexWrap': 'nowrap',
-  'justifyContent': 'center',
+  'justifyContent': 'flex-start',
 };
 
 /* Legacy comment: We have to use the old-style flex box with line clamping. It will only
@@ -36,7 +36,7 @@ const fitTextContent = {
 
   'flexDirection': 'column',
   'flexWrap': 'nowrap',
-  'justifyContent': 'center',
+  'justifyContent': 'flex-start',
 };
 
 const minContentHeight = {
